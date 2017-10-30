@@ -1,0 +1,456 @@
+body{
+	font-family: 'Lato', sans-serif;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	
+}
+
+.encabe{
+	background: #2c3e50;  /*color azul oscuro*/
+	height:18%;
+	width: 100%;
+	color: #fff;
+	position: fixed;
+	top: 0;
+	padding-top: 35px;
+	font-weight: 900;
+}
+
+.izq{    /*bootstrap*/
+	color: #fff;
+	display: inline;
+	margin-left: 70px;
+ 	padding-right: 300px;
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-size: 30px;
+ 	
+}
+.der{    /* contact about portafolio*/
+	color: #fff;
+	display: inline;
+	font-size: 15px;
+	margin-right: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* hasta aqui el header*/
+
+.centro{
+	background: #18bc9c;   /*color celeste*/
+	width: 100%;
+	height:100%;
+	float:left;
+	padding-bottom: 50px;
+}
+.hombre{
+	position:inline;
+	margin-top:17%;
+	margin-left: 38%;
+	align-self: center;
+}
+h1{  /*START BOOTSTRAP*/
+	color: white;
+	text-align: center;
+	font-size: 75px;
+	font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 30px;
+
+}
+h3{
+	color:white;
+	font-size:28px;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	text-align: center; 
+}
+
+.hdr1{ /*lineas junto a la primera estrella*/
+	width: 100px;
+	border: 2px solid #fff;  /*color blanco*/
+	background: #fff ;
+	float:left;
+	position:inline;
+	margin-right:9px;
+	margin-left:38%;
+	margin-top: 15px;
+
+}
+.star1{
+	align-items: center;
+	
+}
+
+.hdr2{ /*lineas junto a la primera estrella*/
+	width: 100px;
+	border: 2px solid #fff;  /*color blanco*/
+	float:right;
+	position:inline;
+	margin-left:4px;
+	margin-right:38%;
+	margin-top: 15px;
+
+}
+
+/* fin de parte celeste (central)*/
+/*comienza portafolio*/
+
+.portaf{
+	color: grey;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 60px;
+}
+.porta1 star2{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 50px;
+	color:  #212529;  /*color gris*/
+	font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.port1{
+	width: 100px;
+	border: 2px solid #212529;  /*color gris*/
+	float:left;
+	position:inline;
+	margin-right:9px;
+	margin-left:38%;
+	margin-top: 15px;
+}
+.star2{   /*estrella del portafolio*/
+	align-items: center;
+	color:#212529;
+}
+.port2{	       /*lineas que estan junto a la estrella*/
+	width: 100px;
+	border: 2px solid #212529;  /*color gris*/
+	float:right;
+	position:inline;
+	margin-left: 4px;
+	margin-right: 38%;
+	margin-top: 15px;
+}
+
+.porta{   /*imagenes del portafolio*/
+	width:300px;
+	height: 200px;
+	margin:15px;
+}
+/*hasta aqui llega el portafolio*/
+
+.about{
+
+	background: #18bc9c;   /*color celeste*/
+	width: 100%;
+	
+	color: white;
+}
+.ab{    /*FRASE "ABOUT"*/
+	color: white;
+	background: #18bc9c;   /*color celeste*/
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 45px;
+	font-weight: lighter;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+.barr1{  /*linea izquierda junto a la estrella*/
+	width: 100px;
+	border: 2px solid #fff;  /*color gris*/
+	float:left;
+	position:absolute;
+	margin-right:2px;
+	margin-left: 39%;
+	background: blue;
+}
+.star3{
+	color: #212529;     /* color gris*/
+	padding-bottom: 20px;
+	display: inline;
+	position: absolute;
+	left: 49.5%;
+
+}
+.barr2{   /*linea derecha junto a la estrella*/
+	width: 100px;
+	border: 2px solid #fff;  /*color gris*/
+	float:left;
+	display: inline;
+	position: absolute;
+	right: 37%;
+}
+.uno{    /*parrafo izquierdo*/
+	float:left;
+	font-size: 19px;
+	font-weight: lighter;
+	height: 220px;
+	width: 270px;
+	margin-left: 200px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 10px;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+}
+
+.dos{    /*parrafo derecho*/
+	float:right;
+	font-size: 19px;
+	font-weight: lighter;
+	height: 220px;
+	width: 270px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	margin-right: 200px;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+}
+.down{   /* falta alinear el boton en el centro*/
+	
+	border:2px solid white;
+	border-radius: 5px;
+	height:70px;
+	width: 220px;
+	background: #18bc9c;    /*color celeste*/
+	color: white;
+	font-size:20px;
+	text-align: center;
+	margin-left:420px;
+	text-decoration: none;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 10px;
+	padding-left: 5px;
+
+
+}
+i{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+
+}
+
+.down:hover{
+	border:2px solid white;
+	border-radius: 5px;
+	height:50px;
+	width: 220px;
+	background: #fff;   
+	color: #18bc9c;
+	font-size:20px;
+	margin-left:420px;
+}
+/*HASTA AQUI LLEGA ABOUT*/
+
+/*COMIENZA FORMULARIO*/
+.contac{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 50px;
+	color: #212529;
+}
+.me{ 	 /*linea izquierda junto a la estrella*/
+	width: 100px;
+	border: 2px solid #212529;  /*color gris*/
+	float:left;
+	position:absolute;
+	margin-right:2px;
+	margin-left: 39%;
+	background: blue;
+}
+
+.fa-star{
+	color: #212529;     /* color gris*/
+	top: -17px;
+	display: inline;
+	left: 48.3%;
+}
+.yo{		/*linea derecha junto a la estrella*/
+	width: 100px;
+	border: 2px solid #212529;  /*color gris*/
+	float:left;
+	display: inline;
+	position: absolute;
+	right: 37%;
+}
+
+input{    /*FORMULARIO */
+	font-family: 'lano', sans-serif;
+	font-size: 22px;
+	color: #212529;    /*color gris*/
+	align-items: center;
+	width: 600px;
+	height: 50px;
+	border-top-color: none;
+	border-left-color: none;
+	text-decoration: none;
+	margin-left: 250px;
+	margin-right: 200px;
+	margin-top: 10px;
+	border: none;
+	border-bottom: 1px solid #BFC9CA;   /* gris muy claro*/
+}	
+
+input:hover{
+	font-family: 'lano', sans-serif;
+	font-size: 22px;
+	color: #18bc9c;
+	align-items: center;
+	width: 600px;
+	height: 50px;
+	border-radius: 5px;
+	margin-left: 250px;
+	margin-right: 200px;
+	margin-top: 10px;
+}
+.msn{
+	width: 600px;
+	height: 100px;
+	align-content: top;
+	border-color: none;
+	font-family: 'lano', sans-serif;
+}
+.msn:hover{
+	width: 600px;
+	height: 100px;
+	align-content: top;
+	border-color: none;
+	border-radius: 5px;
+	font-family: 'lano', sans-serif;
+
+}
+
+.enviar{    /*BOTON ENVIAR*/
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	font-size: 19px;
+	color: #fff;    /*color blanco*/
+	text-align: center;
+	border-radius: 8px;
+	border: 1px solid #fff;     /*color blanco*/
+	width: 78px;
+	height: 50px;
+	background: #18bc9c;   /*color celeste*/
+	margin-left: 244px;
+	margin-top: 30px;
+}
+.enviar:hover{   /*BOTON ENVIAR AL PASAR EL CURSOR POR ENCIMA*/  
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	font-size: 19px;
+	color: #18bc9c;     /*color celeste*/
+	text-align: center;
+	border-radius: 8px;
+	border: 1px solid #18bc9c;    /*color celeste*/
+	width: 78px;
+	height: 50px;
+	background: #fff;    /*color blanco*/
+	margin-left: 244px;
+	margin-top: 30px;
+	
+
+}
+
+/* aqui termina CONTACT ME*/
+
+footer{
+
+	background: #2c3e50;    /*color azul oscuro*/
+	width: 100%;
+	height:300px;
+	color: #fff;   /*color blanco*/
+	
+}
+.direc{    /*LOCACION - PARRAFO CON LA DIRECCION*/
+	width: 280px;
+	float:left;
+	margin-right: 40px;
+	margin-left:30px;
+	
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	padding-bottom: 0px;
+
+}
+.web{   /*PARRAFO REDES SOCIALES*/
+	width: 320px;
+	float:left;
+	color: #fff;
+	text-align: center;
+}
+h4{   /*titulo redes sociales*/
+	font-size: 27px;
+	text-align: center;
+	color: #fff;
+	font-weight: 900;
+	font-family: 'lano', sans-serif;
+	height: 10px;
+
+}
+   /*LOS CIRCULOS ALREDEDOR DE LOS ICONOS DE REDES SOCIALES*/
+.fa-facebook{
+	border: 2px solid #fff;
+}
+.fa-google-plus{
+	border: 2px solid #fff;
+}
+.fa-twitter{
+	border: 2px solid #fff;
+}
+.fa-info{
+	border: 2px solid #fff;
+}
+.fa-dribbble{
+	border: 2px solid #fff;
+}
+
+i{   /*ICONOS DE REDES SOCIALES*/
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	margin: 5px;
+	padding:10px;
+	border-width: 20px;
+	display: inline-block;
+	position: relative;
+}
+
+
+.freel{   /*PARRAFO DERECHO*/
+	width: 300px;
+	float:left;
+	margin-right: 30px;
+	margin-left:30px;
+	margin-bottom:40px;
+	text-align: center;
+	color:#fff;
+	font-size: 20px;
+}
+
+/////**aqui va el copyrigth*/
+.cinco{
+	bottom: 0;
+	position: fixed;
+}
+h6{
+	
+	padding-top: 260px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+
+}
+/*FIN DEL DOCUMENTO*;
+
+
